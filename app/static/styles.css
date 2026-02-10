@@ -1,0 +1,16 @@
+body { font-family: system-ui, Arial, sans-serif; background:#0b0c10; color:#eaeaea; margin:0; }
+.wrap { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+h1 { margin: 0 0 16px; font-size: 22px; }
+.panel { background:#12131a; border: 1px solid #23243a; border-radius: 10px; padding: 16px; }
+.status { font-size: 12px; opacity: 0.8; margin-bottom: 12px; }
+.chat { height: 420px; overflow:auto; border:1px solid #23243a; border-radius: 10px; padding: 12px; background:#0e0f15; }
+.msg { margin: 10px 0; padding: 10px; border-radius: 10px; max-width: 85%; white-space: pre-wrap; }
+.user { background:#1c2b3a; margin-left:auto; }
+.ai { background:#1a1c2b; border: 1px solid #2b2f55; }
+.controls { display:flex; gap:10px; align-items:center; margin: 12px 0; flex-wrap: wrap; }
+button { background:#2b2f55; color:#fff; border:0; padding:10px 12px; border-radius: 8px; cursor:pointer; }
+button[disabled] { opacity:0.5; cursor:not-allowed; }
+.form { display:flex; gap:10px; margin-top: 10px; }
+input[type="text"] { flex:1; padding:10px; border-radius: 8px; border:1px solid #2b2f55; background:#0e0f15; color:#fff; }
+.toggle { font-size: 12px; opacity: 0.9; display:flex; align-items:center; gap:8px; }
+.hint { font-size: 12px; opacity:0.7; margin-top: 10px; }
